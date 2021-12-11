@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="*")
 @RequestMapping("api/v1/productos")
 @AllArgsConstructor
 public class ProductoController {

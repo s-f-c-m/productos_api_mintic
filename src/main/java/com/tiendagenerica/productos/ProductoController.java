@@ -11,7 +11,7 @@ import static org.springframework.http.HttpStatus.FORBIDDEN;
 import static org.springframework.http.HttpStatus.resolve;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="*")
 @RequestMapping("api/v1/productos")
 @AllArgsConstructor
 public class ProductoController {
